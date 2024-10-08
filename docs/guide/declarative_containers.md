@@ -1,6 +1,6 @@
 # Declarative Environment Configuration
 
-JobQ allows you to define your Docker environment in a declarative YAML format. Instead of writing a Dockerfile directly.
+jobq allows you to define your Docker environment in a declarative YAML format. Instead of writing a Dockerfile directly.
 
 ## YAML Structure
 
@@ -108,4 +108,4 @@ job = Job(
     )
 )
 ```
-jobQ will automatically generate a Dockerfile from your YAML configuration when building the image for your job.
+jobq will automatically generate a Dockerfile from your YAML configuration when building the image for your job.
